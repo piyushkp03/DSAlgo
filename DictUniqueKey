@@ -1,0 +1,7 @@
+dc={1:1,2:2,3:3,1:4,2:9}
+print(dc)
+del dc[1]
+print(dc)
+dc[1]='5'
+del dc[2]
+print(dc,len(dc))
